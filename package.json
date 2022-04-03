@@ -1,0 +1,13 @@
+{
+  "name": "calculator-wasm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://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@github.com/Manusiabodoh4/calculator-wasm.git",
+  "author": "Manusiabodoh4 <technoboth@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "build":"tinygo build -o ./go/calculator.wasm -target wasm ./go/calculator.go",
+    "start": "node index.js"
+  }
+}
